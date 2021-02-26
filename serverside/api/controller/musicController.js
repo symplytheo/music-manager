@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 const Music = require('../model/Music')
 
 exports.getAllMusics = async (req, res) => {
