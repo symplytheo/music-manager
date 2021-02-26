@@ -120,12 +120,17 @@
 <script>
 export default {
   async asyncData({ $axios }) {
-    let musics = await $axios.$get('/')
-    musics = musics.payload
-    return { musics }
+    try {
+      let musics = await $axios.$get('/')
+      musics = musics.payload
+      return { musics }
+    } catch (error) {
+      console.log(error)
+    }
   },
   data() {
     return {
+      musics: [],
       search: '',
       headers: [
         { text: 'Artistes', value: 'artist' },
