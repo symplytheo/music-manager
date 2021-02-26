@@ -40,7 +40,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'http://localhost:5000/music',
+    baseURL: 'https://mp3manager.herokuapp.com/music',
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
