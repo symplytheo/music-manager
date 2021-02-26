@@ -1,6 +1,7 @@
 # music-manager
 
 A Music manager web app with player built using MEVN stack.
+
 Contains 2 hosted subdirectories:
 
 - clientside : hosted on vercel (continuous deployment)
@@ -9,6 +10,7 @@ Contains 2 hosted subdirectories:
 ## Frontend
 
 Technology :- Vue, Nuxtjs, Vuetify
+
 Demo : [https://music-manager-psi.vercel.app/](https://music-manager-psi.vercel.app/)
 
 ...................................
@@ -20,6 +22,7 @@ Demo : [https://music-manager-psi.vercel.app/](https://music-manager-psi.vercel.
 ## Backend
 
 Technology :- Node, Expressjs, MongoDB
+
 **API url** : *[https://mp3manager.herokuapp.com](https://mp3manager.herokuapp.com)*
 
 ### Endpoints
